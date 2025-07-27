@@ -35,15 +35,39 @@
             <!--Here goes the logo and the name-->
             <div class="logo w-[40%] pl-[40px]">
                 <div class="items flex m-auto items-center">
-                    <a href=""><img src="../../assets/logo.png" alt="" class="w-[80px] rounded"></a>   
+                    <router-link to="/">
+                      <img src="../../assets/logo.png" alt="" class="w-[80px] rounded">
+                    </router-link>   
                 </div>
             </div>
 
             <!--Here goes the menus-->
             <div class="menu w-[60%]">
-                <ul class=" flex justify-between text-white font-normal text-[18px] w-full pr-[40px] pl-[80px]">
-                    <li>About us</li>
-                    <li>Academic</li>
+                <ul class=" flex gap-6 justify-end text-white font-normal text-[19px] w-full pr-[40px] pl-[80px]">
+
+                    <li>
+                        <router-link to="/about" class="hover:text-gray-400 transition-colors duration-200">About us</router-link>
+                    </li>
+
+                    <li>
+                        <div class="group cursor-pointer relative hover:text-gray-400 transition-colors duration-200">
+                            Academic 
+                            <span>
+                                <font-awesome-icon icon="angle-down"class="transform transition-transform duration-300 group-hover:rotate-180"/>
+                            </span>
+                            <!-- drop down menu  -->
+                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
+
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 1</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 2</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 3</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 4</li>
+
+                            </ul>
+                            <!-- drop down menu ends  -->
+                        </div>
+                    </li>
+
                     <li>Admission</li>
                     <li>Events</li>
                     <li>Faculty</li>
@@ -53,5 +77,11 @@
 
         </div>
     </nav>
-
+    <router-view></router-view>
 </template>
+
+<script setup>
+    import About from '../../pages/About.vue'
+
+    components:{About}
+</script>

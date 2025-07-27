@@ -44,7 +44,7 @@
                 <div class="links w-[40%]">
                     <h2 class="text-white font-normal text-[24px] leading-10 pt-[5%]">Quick Links</h2>
                     <ul class="text-gray-300 font-normal text-[18px] leading-10 ">
-                        <li class="hover:text-gray-400"><a href="">About</a></li>
+                        <li class="hover:text-gray-400"><a href="">About us</a></li>
                         <li class="hover:text-gray-400"><a href="">Notice Board</a></li>
                         <li class="hover:text-gray-400"><a href="">Admission</a></li>
                         <li class="hover:text-gray-400"><a href="">Gallary</a></li>
