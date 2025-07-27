@@ -68,10 +68,64 @@
                         </div>
                     </li>
 
-                    <li>Admission</li>
-                    <li>Events</li>
-                    <li>Faculty</li>
-                    <li>Gallary</li>
+                    <li>
+                        <div class="group cursor-pointer relative hover:text-gray-400 transition-colors duration-200">
+                            Admission 
+                            <span>
+                                <font-awesome-icon icon="angle-down"class="transform transition-transform duration-300 group-hover:rotate-180"/>
+                            </span>
+                            <!-- drop down menu  -->
+                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
+
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 1</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 2</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 3</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 4</li>
+
+                            </ul>
+                            <!-- drop down menu ends  -->
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="group cursor-pointer relative hover:text-gray-400 transition-colors duration-200">
+                            Events
+                            <span>
+                                <font-awesome-icon icon="angle-down"class="transform transition-transform duration-300 group-hover:rotate-180"/>
+                            </span>
+                            <!-- drop down menu  -->
+                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
+
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 1</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 2</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 3</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 4</li>
+
+                            </ul>
+                            <!-- drop down menu ends  -->
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="group cursor-pointer relative hover:text-gray-400 transition-colors duration-200">
+                           Faculty
+                            <span>
+                                <font-awesome-icon icon="angle-down"class="transform transition-transform duration-300 group-hover:rotate-180"/>
+                            </span>
+                            <!-- drop down menu  -->
+                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
+
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 1</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 2</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 3</li>
+                                <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 4</li>
+
+                            </ul>
+                            <!-- drop down menu ends  -->
+                        </div>
+                    </li>
+
+                    <li><router-link to="/gallary" class="hover:text-gray-400 transition-colors duration-200">Gallary</router-link></li>
                 </ul>
             </div>
 
@@ -82,6 +136,7 @@
 
 <script setup>
     import About from '../../pages/About.vue'
+    import Gallary from '../../pages/Gallary.vue'
 
     components:{About}
 </script>

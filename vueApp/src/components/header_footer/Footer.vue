@@ -57,7 +57,8 @@
             </div>
         </div>
 
-        <div class="bottom bg-[#354692] py-[40px]">
+        <!-- bottom copyright section of the footer starts here  -->
+        <div class="bottom bg-[#354692] py-[15px]">
             <div class="container flex m-auto justify-between">
 
                 <div class="left w-[50%] pl-[40px]">
