@@ -1,7 +1,7 @@
 <template>
     <footer>
 
-        <div class="top bg-[#142a5c] pt-[40px] pb-[20px] pl-[40px]">
+        <div class="top bg-[#142a5c] pt-[40px] pb-[20px] ">
             <div class="container m-auto flex">
 
                 <div class="get_in_touch w-[40%] leading-10 text-gray-300 text-[18px]">
@@ -61,10 +61,10 @@
         <div class="bottom bg-[#354692] py-[15px]">
             <div class="container flex m-auto justify-between">
 
-                <div class="left w-[50%] pl-[40px]">
+                <div class="left w-[50%]">
                     <p class="text-gray-300">Copyright © <span>2025</span> <span><a class="text-white hover:underline" href="">Nakhalpara Hossain Ali High School</a></span>. All Rights Reserved</p>
                 </div>
-                <div class="right w-50% text-gray-300 flex gap-4 justify-end pr-[40px]">
+                <div class="right w-50% text-gray-300 flex gap-4 justify-end ">
                     <a class="hover:text-white hover:underline" href="">Terms & Conditions</a>
                     <a class="hover:text-white hover:underline" href="">Privacy Policy</a>
                     <a class="hover:text-white hover:underline" href="">Sitemap</a>
