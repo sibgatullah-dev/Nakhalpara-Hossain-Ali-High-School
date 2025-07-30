@@ -30,20 +30,21 @@
     </div>
 
     <!--navigation-->
-    <nav class=" bg-[#142a5c] py-[20px]">
+    <nav class=" bg-[#142a5c] py-[15px]">
         <div class="container m-auto flex items-center">
             <!--Here goes the logo and the name-->
             <div class="logo w-[40%] ">
                 <div class="items flex m-auto items-center">
                     <router-link to="/">
-                      <img src="../../assets/logo.png" alt="" class="w-[80px] rounded">
+                        <h1 class="text-white font-bold text-[32px]">Nakhalpara Hossain Ali High School</h1>
+                      <!-- <img src="../../assets/logo.png" alt="" class="w-[80px] rounded"> -->
                     </router-link>   
                 </div>
             </div>
 
             <!--Here goes the menus-->
             <div class="menu w-[60%]">
-                <ul class=" flex gap-6 justify-end text-white font-normal text-[18px] w-full  pl-[80px]">
+                <ul class=" flex gap-6 justify-end text-white font-normal text-[18px] w-full ">
 
                     <li>
                         <router-link to="/about" class="hover:text-gray-400 transition-colors duration-200">About us</router-link>
@@ -56,7 +57,7 @@
                                 <font-awesome-icon icon="angle-down"class="transform transition-transform duration-300 group-hover:rotate-180"/>
                             </span>
                             <!-- drop down menu  -->
-                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
+                            <ul class="absolute left-0 pt-2 w-40 bg-[#142a5c] rounded leading-6 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-out pointer-events-none group-hover:pointer-events-auto z-50 text-white">
 
                                 <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 1</li>
                                 <li class=" px-4 py-2 hover:bg-[#354692]">Dummy 2</li>
