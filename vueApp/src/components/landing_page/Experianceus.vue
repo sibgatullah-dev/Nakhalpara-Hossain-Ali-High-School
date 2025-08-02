@@ -3,7 +3,7 @@
     <div class="container mx-auto flex flex-col md:flex-row items-center gap-12 px-4">
         <!-- Left Image Section -->
         <div class="w-full md:w-[50%] shadow-xl rounded-md overflow-hidden">
-            <img src="../assets/banner.jpg" alt="Experience Video" class="w-full h-auto object-cover" />
+            <img src="../../assets/banner.jpg" alt="Experience Video" class="w-full h-auto object-cover" />
         </div>
 
         <!-- Right Text Section -->
@@ -20,18 +20,22 @@
 
             <!-- Buttons section -->
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl">
-                <button class="w-full bg-[rgba(53,70,146,0.1)] px-6 py-4 font-bold text-sm text-[#142a5c] transition-transform duration-200 ease-out hover:bg-[#142a5c] hover:text-white transform hover:scale-[1.03] will-change-transform">
-                CURRICULUM
-                </button>
-                <button class="w-full bg-[rgba(53,70,146,0.1)] px-6 py-4 font-bold text-sm text-[#142a5c] transition-transform duration-200 ease-out hover:bg-[#142a5c] hover:text-white transform hover:scale-[1.03] will-change-transform">
-                CLASSROOM
-                </button>
-                <button class="w-full bg-[rgba(53,70,146,0.1)] px-6 py-4 font-bold text-sm text-[#142a5c] transition-transform duration-200 ease-out hover:bg-[#142a5c] hover:text-white transform hover:scale-[1.03] will-change-transform">
-                CAMPUS
-                </button>
+                <BlueButton label="CURRICULUM" to="/curriculum" />
+                <BlueButton label="CLASSROOM" to="/classroom" />
+                <BlueButton label="CAMPUS" to="/campus" />
+
             </div>
         </div>
     </div>
 
   </div>
 </template>
+
+<script setup>
+
+import BlueButton from '../buttons/BlueButton.vue';
+
+components:{BlueButton}
+
+</script>
+

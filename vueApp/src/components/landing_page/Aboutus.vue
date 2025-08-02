@@ -6,7 +6,7 @@
       <div class="w-[220px] h-[1px] bg-[rgba(0,0,0,0.3)]"></div>
 
       <!-- Logo -->
-      <img src="../assets/logo.png" alt="School Logo" class="w-[80px] rounded" />
+      <img src="../../assets/logo.png" alt="School Logo" class="w-[80px] rounded" />
 
       <!-- Right Line -->
       <div class="w-[220px] h-[1px] bg-[rgba(0,0,0,0.3)]"></div>
@@ -20,7 +20,7 @@
             <a href="#" class="underline text-[#354692] text-[18px] font-medium pt-4 inline-block hover:no-underline transition-all duration-500">
             Learn more about Hossain Ali Advantage
             </a>
-            <p class="max-w-3xl mx-auto  text-gray-800 text-[18px] leading-8">For quick answers to our most commonly asked questions, <span class="underline text-[#354692] text-[18px] font-medium  inline-block hover:no-underline transition-all duration-500">visit our FAQ page.</span></p>
+            <p class="max-w-3xl mx-auto  text-gray-800 text-[18px] leading-8">For quick answers to our most commonly asked questions, <span class="underline text-[#354692] text-[18px] font-medium  inline-block hover:no-underline transition-all duration-500"><a href="">visit our FAQ page.</a></span></p>
         </div>
     </div>
   </div>
